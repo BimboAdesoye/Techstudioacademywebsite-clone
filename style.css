@@ -120,8 +120,8 @@ li {
 
 .primary-btn {
   color: white;
-  background-color: #007bff;
-  border: 2px solid #007bff;
+  background-color: var(--blue);
+  border: 2px solid var(--blue);
 }
 
 .primary-btn:hover,
@@ -135,7 +135,7 @@ li {
 }
 
 .secondary-btn {
-  color: #007bff;
+  color: var(--blue);
   background-color: #fff;
 }
 
@@ -156,7 +156,7 @@ li {
   position: relative;
   width: 50px;
   height: 5px;
-  background-color: #007bff;
+  background-color: var(--blue);
   left: 48%;
   top: 2.5rem;
 }
@@ -194,7 +194,7 @@ li {
 }
 
 .nav-list a {
-  color: #007bff;
+  color: var(--blue);
   font-weight: 400;
   font-size: 1.55rem;
   letter-spacing: 0.3px;
@@ -217,21 +217,17 @@ li {
 }
 
 .hero {
-  /* border: 4px solid red; */
   padding: 3rem 0;
 }
 
 .hero-content {
   display: flex;
-  /* border: 2px solid blue; */
   padding-top: 3rem;
 }
 
 .hero-text {
   color: white;
-  /* width: 70%; */
   margin-bottom: 3rem;
-  /* border: 2px solid crimson; */
   padding: 0 1.2rem 2.3rem 1.2rem;
 }
 
@@ -250,7 +246,6 @@ li {
 
 .enrolment {
   padding-top: 2.5rem;
-  /* border: 1px solid green; */
 }
 
 .enrolment p {
@@ -258,7 +253,6 @@ li {
 }
 
 .enrolment-info {
-  /* border: 1px solid red; */
   max-width: 500px;
   margin-top: 3px;
   padding-top: 5px;
@@ -336,8 +330,8 @@ li {
   width: 100%;
   font-family: GT Walsheim Pro, sans-serif;
   color: #fff;
-  background-color: #007bff;
-  border-color: #007bff;
+  background-color: var(--blue);
+  border-color: var(--blue);
   border-radius: 3px;
   text-align: center;
   margin-top: 2rem;
@@ -393,7 +387,7 @@ li {
 }
 
 .decor {
-  color: #dc3545;
+  color: var(--danger);
   font-weight: 700;
 }
 
@@ -593,7 +587,7 @@ li {
 
 .studio-details-content a {
   text-decoration: underline;
-  color: #007bff;
+  color: var(--blue);
 }
 
 .studio-details-content a:hover {
@@ -716,7 +710,7 @@ li {
 }
 
 .callout {
-  background-color: #007bff;
+  background-color: var(--blue);
   max-width: 60%;
   padding: 3rem;
   border-radius: 0.5rem;
@@ -785,7 +779,7 @@ li {
 
 /* application section */
 #application {
-  background-color: #007bff;
+  background-color: var(--blue);
   padding: 2.7rem 0;
 }
 
@@ -845,7 +839,7 @@ li {
 
 .application-content-y {
   margin: 0 2rem;
-  background-color: #dc3545;
+  background-color: var(--danger);
   padding: 1rem 2.7rem;
   width: 35%;
   border-radius: 5px;
@@ -951,6 +945,6 @@ li {
 }
 
 .footer-brands:hover {
-  color: #dc3545;
+  color: var(--danger);
 }
 /* End of footer */
