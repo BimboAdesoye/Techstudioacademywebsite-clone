@@ -150,6 +150,12 @@ li {
   margin: auto;
 }
 
+@media screen and (min-width: 1024px) {
+  .container {
+    width: 98%;
+  }
+}
+
 @media screen and (max-width: 992px) {
   .container {
     width: 95%;
@@ -376,6 +382,20 @@ li {
 .hero-form .form a:hover {
   background-color: #0069d9;
   border-color: #0062cc;
+}
+
+@media screen and (min-width: 1024px) {
+  #hero {
+    height: 95vh;
+  }
+
+  .enrolment-info {
+    width: 450px;
+  }
+
+  .hero-content {
+    gap: 1rem;
+  }
 }
 
 @media screen and (max-width: 992px) {
@@ -992,6 +1012,10 @@ li {
   margin-left: 3.5rem;
 }
 
+.faq-content-register {
+  margin-top: 3rem;
+}
+
 @media screen and (max-width: 500px) {
   .faq-content-wrapper {
     flex-direction: column;
@@ -1247,7 +1271,7 @@ li {
   }
 }
 
-@media screen and (max-width:768px) {
+@media screen and (max-width: 768px) {
   .footer1 p {
     font-size: 1.7rem;
   }
